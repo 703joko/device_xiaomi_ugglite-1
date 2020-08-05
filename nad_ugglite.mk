@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common NusantaraOS stuff
-$(call inherit-product, vendor/nad/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Inherit from ugglite device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -33,6 +33,8 @@ PRODUCT_DEVICE := ugglite
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 5A
 PRODUCT_NAME := nad_ugglite
+
+NAD_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
