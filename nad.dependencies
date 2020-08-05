@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-devices/vendor_xiaomi_ugglite",
+    "target_path": "vendor/xiaomi",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch": "master"
+  },
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-devices/kernel_xiaomi_ugglite",
+    "target_path": "kernel/xiaomi/msm8917",
+    "branch": "10"
+  }
+]
